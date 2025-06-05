@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Pokémon API</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Buscar Pokémon</h1>
+    <input type="text" id="pokemonInput" placeholder="Digite o nome ou número">
+    <button onclick="buscarPokemon()">Buscar</button>
+
+    <div id="pokemonCard" class="card escondido">
+      <h2 id="pokemonName"></h2>
+      <img id="pokemonImage" src="" alt="Imagem do Pokémon">
+      <p id="pokemonType"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
